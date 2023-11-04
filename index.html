@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<style>
+    body {
+        background-color: #151D2B;
+    }
+
+    form {
+        background-color: #1A2332;
+        width: 25%;
+        margin: auto;
+        border-radius: 10px;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    input[type=text],
+    input[type=password] {
+        background-color: #101927;
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #101927;
+        box-sizing: border-box;
+        border-radius: 10px;
+        color: white;
+    }
+
+    button {
+        background-color: #2A86FF;
+        color: white;
+        padding: 14px 20px;
+        margin: 8px 0;
+        border: none;
+        cursor: pointer;
+        width: 100%;
+        border-radius: 10px;
+    }
+
+    button:hover {
+        opacity: 0.8;
+    }
+
+    .container {
+        padding: 16px;
+    }
+</style>
+<form action="#" method="post">
+
+    <div class="container">
+        <label for="uname"><b>Username</b></label>
+        <input type="text" required>
+
+        <label for="psw"><b>Password</b></label>
+        <input type="password" required>
+
+        <!-- TODO: remove test credentials admin:HiddenInPlainSight -->
+
+        <button type="submit">Login</button>
+    </div>
+</form>
+
+</html>
